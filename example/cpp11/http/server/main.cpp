@@ -1,3 +1,8 @@
+// g++ -O0 main.cpp server.cpp connection_manager.cpp request_handler.cpp
+// connection.cpp reply.cpp mime_types.cpp request_parser.cpp -lboost_system
+// -lpthread -lz
+//
+// run like: ./a.out 0.0.0.0 5000 .
 //
 // main.cpp
 // ~~~~~~~~
